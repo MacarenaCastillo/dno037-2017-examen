@@ -1,0 +1,230 @@
+/*Fixes*/
+
+/*Text Fixes*/
+#lowbanner, h1, h2, h3, h4, h5, h6{
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+}
+section .intro-text .name{
+  font-size: 4em;
+  color: #fff1d6;
+  font-weight: 700;
+}
+section .intro-text .skills{
+  font-size: 2em;
+  color: #fff1d6;
+  font-weight:400;
+}
+
+section{
+  color:#4b2314;
+  z-index: 3;
+  background-color: #fff1d6;
+  position: relative;
+  padding: 2em;
+}
+
+section.success{
+  color:#fff1d6;
+  padding: 3em;
+}
+
+h1{
+  font-size: 10em;
+}
+
+h6{
+  font-size: 1.3em;
+}
+
+p, #defaultCanvas0{
+  font-family: 'Roboto', Verdana, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+#defaultCanvas0{
+  color:#ffc249;
+}
+
+p.small{
+  font-size: 0.5em;
+  font-weight: 300;
+}
+  /*Nav exclusive (navbar-navi li is for buttons on right)*/
+a{
+  color: #e39807;
+}
+
+a:hover{
+  color: #ffc249;
+}
+.navbar-custom{
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+.navbar-custom .navbar-brand, .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-nav li a{
+  color: #fff1d6;
+}
+
+.navbar-custom .navbar-nav li a:hover{
+  color:#e39807;
+}
+    /*Button background when section active*/
+.navbar-custom .navbar-nav li.active a,.navbar-custom .navbar-nav li.active a:active,.navbar-custom .navbar-nav li.active a:focus,.navbar-custom .navbar-nav li.active a:hover{
+  background: #e39807;
+  color:#4b2314;
+}
+footer{
+  color:#fff1d6;
+}
+    /*Close button*/
+.btn-close, .btn-close:hover, .btn-close:active
+{
+  background-color:#4b2314;
+  border-color: #4b2314;
+  color: #fff1d6;
+}
+
+  /*Send button*/
+.btn-send,.btn-send:hover, .btn-send:disabled, .btn-send:focus
+{
+  background-color:#e39807;
+  color: #fff1d6;
+}
+.btn-send:active
+{
+  background-color:#e39807;
+  color: #fff1d6;
+  border-color: #ba7d06;
+  box-shadow: inset 0em 0em 0.5em 0.2em #ba7d06;
+}
+
+.floating-label-form-group-with-focus label{
+  color:#e39807;
+}
+#contact-form, #name, #email, #phone, #message{
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+/*Other Fixes*/
+
+  /*Stars*/
+    /*Lighter*/
+
+hr.star-light, hr.star-light:after{
+  border-color: #fff1d6;
+  background-color: #e39807;
+  color:#fff1d6;
+}
+    /*Darker*/
+hr.star-primary, hr.star-primary:after{
+  border-color: #4b2314;
+  background-color: #fff1d6;
+  color:#4b2314;
+}
+  /*Others*/
+.navbar-custom{
+  background-color: #4b2314;
+}
+.navbar-custom .navbar-toggle:focus,.navbar-custom .navbar-toggle:hover{
+  background-color:#e39807;
+  color:#fff1d6;
+  border-color:#e39807}
+
+
+header, section.success{
+  background-color: #e39807;
+}
+header{
+  padding:1em;
+}
+#maincontent{
+  padding-top:8em;
+  padding-bottom: 2em;
+}
+#banner{
+  display: flex;
+  align-items: center;
+}
+#lowbanner{
+padding: 3em;
+padding-top: 1em;
+  z-index: 1;
+  background-color: #e39807;
+}
+
+/*Color behind Glass*/
+#portfolio .portfolio-item .portfolio-link .caption{
+  background:rgba(227,152,7,.7);
+  position:absolute;width:100%;height:100%;opacity:0;transition:all ease 1s;-webkit-transition:all ease 1s;-moz-transition:all ease 1s}
+}
+/*Mag Glass*/
+#portfolio .portfolio-item .portfolio-link .caption .caption-content{
+  color:#4b2314;
+}
+
+.portfolio-modal .modal-content{
+  background: #fff1d6;
+  color: #4b2314;
+}
+
+.portfolio-modal .modal-content img{
+  margin-top:2em
+}
+
+/*Modal X*/
+.portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl{
+  background-color: #4b2314;
+  height: 5em;
+}
+
+form .row:first-child .floating-label-form-group, .floating-label-form-group:not(:first-child), .floating-label-form-group{
+  border-top: none;
+  border-bottom:0.1em solid rgba(75,55,48,.6);
+}
+
+footer .footer-above{
+  background: #4b2314;
+}
+footer .footer-below{
+  background: #2b140b;
+}
+#headerimage{
+  z-index: 2;
+  opacity: 0.85;
+}
+/*@media fixes*/
+
+@media (max-width:767px){
+  #headerimage{
+    max-height: 20em;
+  }
+  #selfie{
+    max-height: 15em;
+    margin:2em;
+  }
+  section .intro-text .name{
+    font-size: 3em;
+  }
+  section .intro-text .skills{
+    font-size: 1.5em;
+  }
+  section{
+  padding: 1.5em;
+  }
+
+  h2{
+    font-size: 1.7em;
+  }
+  p{
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+  p.small{
+    font-size: 0.4em;
+    font-weight: 400;
+  }
+  hr.star-light, hr.star-light:after, hr.star-primary, hr.star-primary:after{
+    font-size: 1.25em;
+    max-width: 14em;
+  }
+
+}
